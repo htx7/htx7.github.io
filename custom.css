@@ -114,3 +114,43 @@ hue-6-2: #e6c07b
 .hljs-link {
   text-decoration: underline;
 }
+
+/* hbe */
+.hbe-input-field {
+  color: #ed986f !important;
+}
+
+.hbe-button{
+  background: rgb(215, 175, 168) !important;
+  text-align: center !important;
+  border-bottom: 0 !important;
+  font-size: 0 !important;
+}
+
+.hbe-button:before{
+  content: '藏起来T‸T';
+  font-size: 15px !important;
+}
+
+.hbe-button:after{
+  display: none !important;
+}
+
+.hbe-input-field-default{
+  color: #f7c5ba !important;
+  font-size: 20px !important;
+}
+
+.hbe-input-label-default::before{
+  background:unset !important;
+}
+
+.hbe-input-label-default::after{
+  background:#fc7756 !important;
+  background: rgb(215, 175, 168) !important;
+}
+
+.hbe-input-field-default:focus + .hbe-input-label-default::after,
+.hbe-input--filled .hbe-input-label-default::after {
+	opacity: unset !important;
+}
