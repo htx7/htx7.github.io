@@ -15,12 +15,7 @@
 }
 
 #nexmoe-header .nexmoe-avatar img{
-  /* pink */
-  /* transform: scale(1.1) translateX(10px) translateY(10px); */
-  /* yellow  */
-  /* transform: scale(1)  translateY(20px); */
-  /* cover */
-  transform: scale(1.5) translateX(-30px) translateY(18px);
+  transform: scale(1.1) translateX(10px) translateY(10px);
 }
 
 
